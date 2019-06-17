@@ -1,0 +1,10 @@
+<hibernate-configuration>
+    <session-factory>
+        <!-- Настройка JDBC -->
+        <property name="hibernate.connection.driver_class">org.h2.Driver</property>
+        <property name="hibernate.connection.url">jdbc:h2:mem:test</property>
+        <property name="hibernate.connection.username">dk</property>
+        <property name="hbm2ddl.auto">create-drop</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.H2Dialect</property>
+    </session-factory>
+</hibernate-configuration>
