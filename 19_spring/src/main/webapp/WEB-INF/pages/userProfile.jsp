@@ -1,8 +1,8 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ page import="com.nixsolutions.ppp.model.entity.Book" %>
-<%@ page import="com.nixsolutions.ppp.model.entity.Author" %>
-<%@ page import="com.nixsolutions.ppp.model.entity.Genre" %>
-<%@ page import="com.nixsolutions.ppp.model.entity.RentedBook" %>
+<%@ page import="entity.Book" %>
+<%@ page import="entity.Author" %>
+<%@ page import="entity.Genre" %>
+<%@ page import="entity.RentedBook" %>
 <%@ page import="java.util.ArrayList" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
